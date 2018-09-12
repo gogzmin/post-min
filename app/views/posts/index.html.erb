@@ -1,0 +1,15 @@
+
+<div class="post-wrapper">
+    <% @posts.each do |post| %>
+     <div class="post-container">
+       <h3><%= post.title %></h3>
+       <p>
+         <%= post.body %>
+       </p>
+       <p class = 'created_time'>
+         <%= post.created_at %>
+       </p>
+       <%= link_to 'learn more', post_path(post) %>
+     </div>
+    <% end %>
+</div>
