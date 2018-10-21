@@ -7,6 +7,10 @@ p
   strong Description:
   = @pin.description
 
+p
+  strong Image:
+  = image_tag @pin.image
+
 => link_to 'Edit', edit_pin_path(@pin)
 '|
 =< link_to 'Back', pins_path
