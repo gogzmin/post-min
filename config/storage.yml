@@ -12,7 +12,7 @@ amazon:
   access_key_id: <%= ENV['aws_access_key_id'] %>
   secret_access_key: <%= ENV['aws_secret_access_key'] %>
   region: US East (N. Virginia)
-  bucket: post-min
+  bucket: <%= ENV['aws_bucket'] %>
 
 # Remember not to checkin your GCS keyfile to a repository
 # google:
