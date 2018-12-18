@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/github/WebsiteOne/.idea/WebsiteOne.iml" filepath="$USER_HOME$/github/WebsiteOne/.idea/WebsiteOne.iml" />
+      <module fileurl="file://$USER_HOME$/github/catarse/.idea/catarse.iml" filepath="$USER_HOME$/github/catarse/.idea/catarse.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pg_project.iml" filepath="$PROJECT_DIR$/.idea/pg_project.iml" />
     </modules>
   </component>

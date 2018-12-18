@@ -25,5 +25,21 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/pg_project</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails catarse: development" uuid="47888137-53eb-45b5-9282-20c38b5fae7e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$USER_HOME$/github/catarse/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/websiteone_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails catarse: test" uuid="ac19223b-0018-435b-b5eb-a97011f57e72">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$USER_HOME$/github/catarse/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/summer_test</jdbc-url>
+    </data-source>
   </component>
 </project>

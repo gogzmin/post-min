@@ -66,6 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Project Specific Gems
 gem 'slim-rails'
 gem 'bootstrap'
+gem 'searchkick',  '>= 3.1.2'
 
 
 gem 'carrierwave', '~> 1.0'
