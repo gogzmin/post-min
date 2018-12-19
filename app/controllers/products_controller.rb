@@ -23,6 +23,8 @@ class ProductsController < ApplicationController
   def edit
   end
 
+
+
   # POST /products
   # POST /products.json
   def create
@@ -63,6 +65,13 @@ class ProductsController < ApplicationController
     end
   end
 
+  
+  def autocomplete
+    render json: Product.search(params[:term], fields: [{name: :text_start}], limit: 10).map(&:name)
+  end
+
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
@@ -74,3 +83,12 @@ class ProductsController < ApplicationController
       params.require(:product).permit(:name, :price, :description)
     end
 end
+
+
+
+
+
+
+
+
+
