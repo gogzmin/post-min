@@ -19,3 +19,16 @@
     width: 100%;
     max-width: 45px;
 }
+
+.search-min {
+	border: 1px solid #ced4da;
+	border-radius: .25rem
+}
+
+.search-input-min {
+	border: none !important;
+}
+
+.search-input-min:focus {
+	box-shadow: none !important;
+}
